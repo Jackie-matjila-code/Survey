@@ -1,0 +1,64 @@
+label.radio {
+	cursor: pointer;
+  text-indent: 35px;
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+label.radio:before {
+  background: #3a57af;
+  content:'';
+  position: absolute;
+  top:2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.error{
+    color: red;
+}
+
+.bod{
+    background-image: url(Images/evan.jpg); 
+}
+ .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+  margin-top: 150px;
+  background-image: url(Images/jon.jpg); 
+}
+.jumbotron{
+    background-image: url(Images/4k.jpg);
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#footer{
+    
+    margin-top: 50px;
+}
+
+img.details{
+    
+    width: 33%;
+    margin: 15px auto;
+}
+
+.table-auto{
+    width:auto;
+    margin:0 auto
+}
+
+thead{
+  background-color: gray;
+  color: white;
+}
